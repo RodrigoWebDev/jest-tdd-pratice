@@ -1,7 +1,9 @@
 "use strict";
 
-import { expect } from "chai";
+import { expect } from "chai"; 
 import sum from "./sum";
+
+//Chai and code coverage
 
 it("sum should be a function", () => {
   expect(sum).to.be.a("function");
